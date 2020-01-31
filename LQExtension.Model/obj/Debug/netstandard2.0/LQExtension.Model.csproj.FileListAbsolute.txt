@@ -1,0 +1,16 @@
+D:\NBCZ\LQExtension.Model\bin\Debug\netstandard2.0\LQExtension.Model.deps.json
+D:\NBCZ\LQExtension.Model\bin\Debug\netstandard2.0\LQExtension.Model.dll
+D:\NBCZ\LQExtension.Model\bin\Debug\netstandard2.0\LQExtension.Model.pdb
+D:\NBCZ\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.csprojAssemblyReference.cache
+D:\NBCZ\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.AssemblyInfoInputs.cache
+D:\NBCZ\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.AssemblyInfo.cs
+D:\NBCZ\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.dll
+D:\NBCZ\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.pdb
+D:\LQExtension\LQExtension.Model\bin\Debug\netstandard2.0\LQExtension.Model.deps.json
+D:\LQExtension\LQExtension.Model\bin\Debug\netstandard2.0\LQExtension.Model.dll
+D:\LQExtension\LQExtension.Model\bin\Debug\netstandard2.0\LQExtension.Model.pdb
+D:\LQExtension\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.csprojAssemblyReference.cache
+D:\LQExtension\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.AssemblyInfoInputs.cache
+D:\LQExtension\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.AssemblyInfo.cs
+D:\LQExtension\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.dll
+D:\LQExtension\LQExtension.Model\obj\Debug\netstandard2.0\LQExtension.Model.pdb
