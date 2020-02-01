@@ -19,7 +19,7 @@ namespace LQExtension.Common
             // var baseDir = AppDomain.CurrentDomain.BaseDirectory;
             //ReloadOnChange = true 当appsettings.json被修改时重新加载        
             Configuration = new ConfigurationBuilder()
-                .AddJsonFile($"{currentDir}\\appsettings.json")
+                .AddJsonFile($"{currentDir}/appsettings.json")
               // .Add(new JsonConfigurationSource { Path = "appsettings.json",Optional=false, ReloadOnChange = true })
               .Build();
 

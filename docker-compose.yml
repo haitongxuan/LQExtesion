@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  LQExtension.api:
-    image: lqextensionapi
+  lqextension.api:
+    image: ${DOCKER_REGISTRY-}lqextensionapi
     build:
       context: .
-      dockerfile: D:\LQExtension\
+      dockerfile: LQExtension.Api/Dockerfile

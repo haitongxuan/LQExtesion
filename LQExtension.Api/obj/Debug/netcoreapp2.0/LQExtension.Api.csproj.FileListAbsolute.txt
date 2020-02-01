@@ -31,3 +31,4 @@ D:\LQExtension\LQExtension.Api\obj\Debug\netcoreapp2.0\LQExtension.Api.csproj.Co
 D:\LQExtension\LQExtension.Api\obj\Debug\netcoreapp2.0\LQExtension.Api.dll
 D:\LQExtension\LQExtension.Api\obj\Debug\netcoreapp2.0\LQExtension.Api.pdb
 D:\LQExtension\LQExtension.Api\bin\Debug\netcoreapp2.0\Dockerfile
+D:\LQExtension\LQExtension.Api\bin\Debug\netcoreapp2.0\libman.json

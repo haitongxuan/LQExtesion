@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -38,6 +38,12 @@
     <ProjectReference Include="..\LQExtension.BLL\LQExtension.BLL.csproj" />
     <ProjectReference Include="..\LQExtension.Common\LQExtension.Common.csproj" />
     <ProjectReference Include="..\LQExtension.Model\LQExtension.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
