@@ -4,7 +4,7 @@ EXPOSE 80
 
 FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /src
-COPY /LQExtension.Api.csproj LQExtension.Api/
+COPY LQExtension.Api/LQExtension.Api.csproj LQExtension.Api/
 RUN ls -al 
 RUN dotnet restore LQExtension.Api/LQExtension.Api.csproj
 COPY . .

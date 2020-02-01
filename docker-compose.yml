@@ -5,4 +5,4 @@ services:
     image: lqextensionapi
     build:
       context: .
-      dockerfile: D:\LQExtension\LQExtension.Api
+      dockerfile: D:\LQExtension\
