@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using LQExtension.Model;
+using LQExtension.ECangService.Response.Model;
 
 namespace LQExtension.ECangService
 {

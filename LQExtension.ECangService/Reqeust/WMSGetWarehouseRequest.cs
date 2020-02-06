@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using LQExtension.ECangService.Response;
-using LQExtension.Model;
+using LQExtension.ECangService.Response.Model;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;

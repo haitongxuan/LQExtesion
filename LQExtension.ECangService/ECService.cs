@@ -6,7 +6,6 @@ using LQExtension.ECangService.WMS;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using LQExtension.Model;
 
 namespace LQExtension.ECangService
 {
@@ -83,33 +82,6 @@ namespace LQExtension.ECangService
             if (jobject.ContainsKey("data"))
                 data.Data = jobject["data"].ToString();
             return data;
-        }
-        /// <summary>
-        /// 获取易仓仓库列表
-        /// </summary>
-        /// <returns></returns>
-        public async Task<List<EC_Warehouse>> GetEC_WarehouseAsync(string username, string password)
-        {
-            List<EC_Warehouse> list = new List<EC_Warehouse>();
-            string service = "getWarehouse";
-            try
-            {
-                var body = await ResponseServiceAsync();
-
-                JObject j = (JObject)JsonConvert.DeserializeObject(body.Data);
-                IEnumerable<JProperty> properties = j.Properties();
-                foreach (JProperty p in properties)
-                {
-                    string key = p.Name;
-                    EC_Warehouse warehouse = j[key].ToObject<EC_Warehouse>();
-                    list.Add(warehouse);
-                }
-                return list;
-            }
-            catch (ECExceptoin ex)
-            {
-                throw ex;
-            }
         }
     }
 
