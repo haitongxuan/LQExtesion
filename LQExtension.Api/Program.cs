@@ -10,13 +10,24 @@ using Microsoft.Extensions.Logging;
 
 namespace LQExtension.Api
 {
+    /// <summary>
+    /// 入口类
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// 程序入口
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()

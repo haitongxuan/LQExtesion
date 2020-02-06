@@ -23,3 +23,6 @@
 /NBCZ.DAL.Impl
 /NBCZ.DAL.Interface
 /NBCZ.BLL.Impl
+/TestResults
+/LQExtension.MSTest/bin/Debug
+/LQExtension.MSTest/obj

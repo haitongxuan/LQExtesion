@@ -30,7 +30,8 @@ namespace <#=Config.Namespace#>.Model
    [Table("<#=tableName#>")]
     public partial class <#=tableName#>
     {
-	<# foreach(DbColumn column in dbColList){#>/// <summary>
+	<# foreach(DbColumn column in dbColList){#>
+	/// <summary>
     /// <#=column.Remark#>
     /// </summary>
 	<#if(primaryKey!=null&&column.ColumnName==primaryKey.ColumnName&&(primaryKey.CSharpType=="int"||primaryKey.CSharpType=="long")){#>

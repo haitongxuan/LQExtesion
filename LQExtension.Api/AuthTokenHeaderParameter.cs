@@ -6,10 +6,17 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Controllers;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerGen;
+
+/// <summary>
 /// 控制swagger中是否需要添加accesstoken验证
 /// </summary>
 public class AuthTokenHeaderParameter : IOperationFilter
 {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="operation"></param>
+    /// <param name="context"></param>
     public void Apply(Operation operation, OperationFilterContext context)
     {
         if (operation.Parameters == null) operation.Parameters = new List<IParameter>();

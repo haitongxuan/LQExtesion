@@ -175,6 +175,24 @@
             0请求数据错误 1 成功 -1失败
             </summary>
         </member>
+        <member name="T:LQExtension.Api.Program">
+            <summary>
+            入口类
+            </summary>
+        </member>
+        <member name="M:LQExtension.Api.Program.Main(System.String[])">
+            <summary>
+            程序入口
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:LQExtension.Api.Program.BuildWebHost(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
         <member name="T:LQExtension.Api.QueryHelper">
             <summary>
             搜索条件
@@ -198,6 +216,17 @@
             </summary>
             <param name="services"></param>
         </member>
-        <!-- Badly formed XML comment ignored for member "T:AuthTokenHeaderParameter" -->
+        <member name="T:AuthTokenHeaderParameter">
+            <summary>
+            控制swagger中是否需要添加accesstoken验证
+            </summary>
+        </member>
+        <member name="M:AuthTokenHeaderParameter.Apply(Swashbuckle.AspNetCore.Swagger.Operation,Swashbuckle.AspNetCore.SwaggerGen.OperationFilterContext)">
+            <summary>
+            
+            </summary>
+            <param name="operation"></param>
+            <param name="context"></param>
+        </member>
     </members>
 </doc>

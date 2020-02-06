@@ -1,0 +1,5 @@
+D:\LQExtension\LQExtension.ECangService\bin\Debug\netcoreapp3.1\LQExtension.ECangService.deps.json
+D:\LQExtension\LQExtension.ECangService\bin\Debug\netcoreapp3.1\LQExtension.ECangService.dll
+D:\LQExtension\LQExtension.ECangService\obj\Debug\netcoreapp3.1\LQExtension.ECangService.csprojAssemblyReference.cache
+D:\LQExtension\LQExtension.ECangService\obj\Debug\netcoreapp3.1\LQExtension.ECangService.AssemblyInfoInputs.cache
+D:\LQExtension\LQExtension.ECangService\obj\Debug\netcoreapp3.1\LQExtension.ECangService.AssemblyInfo.cs

@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LQExtension.Api", "LQExtens
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AEC61A8C-58DD-4B1C-8C86-7AF17AC4791C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LQExtension.ECangService", "LQExtension.ECangService\LQExtension.ECangService.csproj", "{19779DE3-95F2-4964-9510-6CA955848458}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LQExtension.MSTest", "LQExtension.MSTest\LQExtension.MSTest.csproj", "{EDE0FED3-1203-44F7-8145-FA85CBD557A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{AEC61A8C-58DD-4B1C-8C86-7AF17AC4791C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC61A8C-58DD-4B1C-8C86-7AF17AC4791C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC61A8C-58DD-4B1C-8C86-7AF17AC4791C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19779DE3-95F2-4964-9510-6CA955848458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19779DE3-95F2-4964-9510-6CA955848458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19779DE3-95F2-4964-9510-6CA955848458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19779DE3-95F2-4964-9510-6CA955848458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE0FED3-1203-44F7-8145-FA85CBD557A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE0FED3-1203-44F7-8145-FA85CBD557A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE0FED3-1203-44F7-8145-FA85CBD557A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE0FED3-1203-44F7-8145-FA85CBD557A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
