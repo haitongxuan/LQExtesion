@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LQExtension\\LQExtension.ECangService\\LQExtension.ECangService.csproj": {}
+    "D:\\LQExtension\\LQExtension.EFCore\\LQExtension.EFCore.csproj": {}
   },
   "projects": {
-    "D:\\LQExtension\\LQExtension.ECangService\\LQExtension.ECangService.csproj": {
+    "D:\\LQExtension\\LQExtension.EFCore\\LQExtension.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LQExtension\\LQExtension.ECangService\\LQExtension.ECangService.csproj",
-        "projectName": "LQExtension.ECangService",
-        "projectPath": "D:\\LQExtension\\LQExtension.ECangService\\LQExtension.ECangService.csproj",
+        "projectUniqueName": "D:\\LQExtension\\LQExtension.EFCore\\LQExtension.EFCore.csproj",
+        "projectName": "LQExtension.EFCore",
+        "projectPath": "D:\\LQExtension\\LQExtension.EFCore\\LQExtension.EFCore.csproj",
         "packagesPath": "C:\\Users\\haitx\\.nuget\\packages\\",
-        "outputPath": "D:\\LQExtension\\LQExtension.ECangService\\obj\\",
+        "outputPath": "D:\\LQExtension\\LQExtension.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haitx\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,37 +38,15 @@
       "frameworks": {
         "netcoreapp2.0": {
           "dependencies": {
-            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.9.6, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.0, )",
               "autoReferenced": true
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.3, )"
-            },
-            "System.ServiceModel.Duplex": {
-              "target": "Package",
-              "version": "[4.4.*, )"
-            },
-            "System.ServiceModel.Http": {
-              "target": "Package",
-              "version": "[4.4.*, )"
-            },
-            "System.ServiceModel.NetTcp": {
-              "target": "Package",
-              "version": "[4.4.*, )"
-            },
-            "System.ServiceModel.Security": {
-              "target": "Package",
-              "version": "[4.4.*, )"
             }
           },
           "imports": [

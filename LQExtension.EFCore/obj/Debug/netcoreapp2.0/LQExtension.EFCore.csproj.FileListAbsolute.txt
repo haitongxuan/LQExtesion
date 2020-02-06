@@ -1,0 +1,5 @@
+D:\LQExtension\LQExtension.EFCore\bin\Debug\netcoreapp2.0\LQExtension.EFCore.deps.json
+D:\LQExtension\LQExtension.EFCore\bin\Debug\netcoreapp2.0\LQExtension.EFCore.dll
+D:\LQExtension\LQExtension.EFCore\obj\Debug\netcoreapp2.0\LQExtension.EFCore.csprojAssemblyReference.cache
+D:\LQExtension\LQExtension.EFCore\obj\Debug\netcoreapp2.0\LQExtension.EFCore.AssemblyInfoInputs.cache
+D:\LQExtension\LQExtension.EFCore\obj\Debug\netcoreapp2.0\LQExtension.EFCore.AssemblyInfo.cs
