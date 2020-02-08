@@ -1,5 +1,0 @@
-D:\LQExtension\LQExtension.EFCore\bin\Debug\netcoreapp3.1\LQExtension.EFCore.deps.json
-D:\LQExtension\LQExtension.EFCore\bin\Debug\netcoreapp3.1\LQExtension.EFCore.dll
-D:\LQExtension\LQExtension.EFCore\obj\Debug\netcoreapp3.1\LQExtension.EFCore.csprojAssemblyReference.cache
-D:\LQExtension\LQExtension.EFCore\obj\Debug\netcoreapp3.1\LQExtension.EFCore.AssemblyInfoInputs.cache
-D:\LQExtension\LQExtension.EFCore\obj\Debug\netcoreapp3.1\LQExtension.EFCore.AssemblyInfo.cs

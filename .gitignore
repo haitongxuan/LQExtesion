@@ -28,3 +28,5 @@
 /LQExtension.MSTest/obj
 /LQExtension.ECangService/obj
 /LQExtension.ECangService/bin
+/LQExtension.EFCore/obj
+/LQExtension.EFCore/bin
