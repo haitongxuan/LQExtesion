@@ -1,10 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using LQExtension.ECangService.Reqeust;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using LQExtension.ECangService.Reqeust;
-using LQExtension.ECangService.Response;
 
 namespace LQExtension.MSTest
 {

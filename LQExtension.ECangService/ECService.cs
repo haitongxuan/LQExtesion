@@ -6,6 +6,8 @@ using LQExtension.ECangService.WMS;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using LQExtension.ECangService.Response.Model;
+using LQExtension.ECangService.Reqeust.Model;
 
 namespace LQExtension.ECangService
 {

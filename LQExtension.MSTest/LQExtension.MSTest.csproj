@@ -14,8 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="D:\LQExtension\LQExtension.ECangService\LQExtension.ECangService.csproj" />
-    <ProjectReference Include="D:\LQExtension\LQExtension.Model\LQExtension.Model.csproj" />
+    <ProjectReference Include="..\LQExtension.ECangService\LQExtension.ECangService.csproj" />
+    <ProjectReference Include="..\LQExtension.ECangService\LQExtension.ECangService.csproj" />
+    <ProjectReference Include="..\LQExtension.Model\LQExtension.Model.csproj" />
   </ItemGroup>
 
 </Project>

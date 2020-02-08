@@ -6,7 +6,6 @@ using LQExtension.ECangService.Response.Model;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
-
 namespace LQExtension.ECangService.Reqeust
 {
     public class WMSGetWarehouseRequest : BaseRequest<WMSGetWarehouseResponse>
@@ -34,7 +33,6 @@ namespace LQExtension.ECangService.Reqeust
                     EC_Warehouse warehouse = j[key].ToObject<EC_Warehouse>();
                     list.Add(warehouse);
                 }
-
                 response.Body = list;
                 return response;
             }

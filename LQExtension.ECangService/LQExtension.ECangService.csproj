@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Reqeust\Model\" />
+    <ProjectReference Include="..\LQExtension.Model\LQExtension.Model.csproj" />
   </ItemGroup>
 
 </Project>

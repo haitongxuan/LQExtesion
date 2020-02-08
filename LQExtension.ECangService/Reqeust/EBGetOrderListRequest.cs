@@ -1,27 +1,26 @@
 ﻿using LQExtension.ECangService.Reqeust.Model;
 using LQExtension.ECangService.Response;
+using LQExtension.ECangService.Response.Model;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Newtonsoft.Json;
 using System.Threading.Tasks;
-using LQExtension.ECangService.Response.Model;
-using System.ComponentModel;
 
 namespace LQExtension.ECangService.Reqeust
 {
-    public class WMSGetProductListRequest : BaseRequest<WMSGetProductListResponse>
+    public class EBGetOrderListRequest : BaseRequest<EBGetOrderListResponse>
     {
-        public WMSGetProductListRequest(string username, string password, WMSGetProductListReqModel reqModel) : base(username, password)
+        public EBGetOrderListRequest(string username, string password, EBGetOrderListReqModel reqModel) : base(username, password)
         {
-            service.Service = "getProductList";
-            service.Plateform = "WMS";
+            service.Service = "getOrderList";
+            service.Plateform = "EB";
             service.ParamsJson = JsonConvert.SerializeObject(reqModel);
         }
-        public override async Task<WMSGetProductListResponse> Request()
+        public override async Task<EBGetOrderListResponse> Request()
         {
-            WMSGetProductListResponse response = new WMSGetProductListResponse();
-            List<EC_Product> list = new List<EC_Product>();
+            EBGetOrderListResponse response = new EBGetOrderListResponse();
+            List<EC_SalesOrder> list = new List<EC_SalesOrder>();
             try
             {
                 var body = await service.ResponseServiceAsync();
@@ -29,7 +28,7 @@ namespace LQExtension.ECangService.Reqeust
                 //返回字符串中出现时间0000-00-00 00:00:00 导致反序列化异常
                 data = data.Replace("0000-00-00 00:00:00", "");
 
-                list = JsonConvert.DeserializeObject<List<EC_Product>>(data);
+                list = JsonConvert.DeserializeObject<List<EC_SalesOrder>>(data);
                 response.Body = list;
                 return response;
             }

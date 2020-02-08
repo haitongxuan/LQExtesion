@@ -5,8 +5,8 @@ using System.Text;
 
 namespace LQExtension.ECangService.Response
 {
-    public class WMSGetWarehouseResponse : BaseResponse
+   public class EBGetOrderListResponse : BaseResponse
     {
-        public List<EC_Warehouse> Body { get; set; }
+        public List<EC_SalesOrder> Body { get; set; }
     }
 }

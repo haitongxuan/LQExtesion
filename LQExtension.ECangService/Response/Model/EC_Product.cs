@@ -76,17 +76,17 @@ namespace LQExtension.ECangService.Response.Model
         /// 是否质检 0否 1是
         /// </summary>
 
-        public bool? IsQc { get; set; }
+        public int? IsQc { get; set; }
         /// <summary>
         /// 是否存在有效期 0否 1是
         /// </summary>
 
-        public bool? IsExpDate { get; set; }
+        public int? IsExpDate { get; set; }
         /// <summary>
         /// 是否赠品 0否 1是
         /// </summary>
 
-        public bool? IsGift { get; set; }
+        public int? IsGift { get; set; }
         /// <summary>
         /// 仓库条码
         /// </summary>
